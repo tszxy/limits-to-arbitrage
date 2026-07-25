@@ -25,6 +25,8 @@ limits-to-arbitrage/
 
 **其他模型**：`SKILL.md` 与 `references/*.md` 均为自包含 Markdown，可直接放入 system prompt / context / RAG 语料使用。
 
+**各 Agent 平台接入配置**（Coze、Dify、LangChain、AutoGen、CrewAI、GPTs 等）：见 [docs/agent-integration.md](docs/agent-integration.md)
+
 ## 使用
 
 安装后无需手动调用——讨论套利限制、execution risk、PBA、拥挤交易、三角套利等话题时自动触发；也可显式点名"用 limits-to-arbitrage 框架分析……"。
